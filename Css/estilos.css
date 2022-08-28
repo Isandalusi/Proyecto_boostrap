@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.nav-item a{
+    color: aliceblue;
+    font-size: 25px;
+
+}
+.navbar-nav{
+    gap: 50px;
+    margin: 0 auto;
+}
+.navbar-brand img{
+    margin-left: 40px;
+    border-radius: 10px;
+   
+}
+.menu{
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}

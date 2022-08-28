@@ -1,0 +1,482 @@
+
+/*Resto de Paginas*/
+body{
+   
+    color:white;
+    background-color: black;
+    font-family: 'Merriweather', serif;
+  
+}
+.box{
+width: 900px;
+float: right;
+
+opacity: 0.9;
+}
+.box ul li{
+width: 160px;
+float: left;
+margin: 10px auto;
+text-align: center;
+
+}
+.box ul li a{
+text-decoration: none;
+color: darkgray;
+font-size: x-large;
+}
+.box ul li :hover{
+background-color:#6f5607;
+border-radius: 1.5rem;
+
+}
+.box ul li a:hover{
+ color: white;
+}
+.wd{
+    width: 300px;
+    height: 539px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+.wd h1 {
+    
+    text-align: center;
+    text-transform: uppercase;
+    color:#6f5607 ;
+    font-weight: 100px;
+}
+.wd h2{
+text-align: center;
+color: #6f5607;
+font-weight: normal;
+
+}
+.wd img{
+    width: 200px;
+    margin-left: 50px;
+}
+
+.footer{
+padding: 40px 0;
+background-color: black;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.footer .social a img{
+    width: 40px;
+    height: 40px;
+    color:inherit;
+    border: 1px solid;
+    display: inline-block;
+    line-height: 38px;
+    text-align:center;
+    border-radius: 50px;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a img:hover{
+  opacity: 0.9;
+}
+.footer ul{
+margin-top: 0;
+padding: 0;
+font-size: 18px;
+margin-bottom: 0;
+line-height: 1.6;
+text-align: center;
+}
+.footer ul li a{
+color: inherit;
+text-decoration: none;
+opacity: 0.8;
+
+}
+.footer ul li{
+ display: inline-block;
+ padding: 0 15px;
+}
+.footer ul li a:hover{
+opacity: 1;
+}
+.footer .copyright{
+  margin-top: 15px;
+  text-align: center;
+  color: darkgrey;
+  font-size: 13px;
+}
+
+
+ .video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+   }
+
+  @media(min-aspect-ratio:16/9){
+     .video{
+        width: 100%;
+        height: auto;
+     }
+  }
+  @media(max-aspect-ratio:16/9){
+    .video{
+       width: auto;
+       height: 100%;
+    } 
+ }
+
+
+/*ideales*/
+.ideales{
+    margin: 150px 0;
+    background-color:black;
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.ideales div {
+ color: white;
+ background-color:black;
+ width: 27vh;
+ padding: 40px;
+}
+.ideales div img{
+    width: 100px;
+    height: 150px;
+    border-radius: 8px;
+}
+.ideales div h4{
+font-size: 20px;
+color: #6f5607; 
+}
+.ideales div a{
+    text-decoration: none;
+    color:  #6f5607;
+}
+/*Pagina Carta */
+.header{
+    background-color: black;
+    height: 20vh;
+}
+.menu h1{
+ font-size:50px;
+}
+.menu h4{
+    font-size: 20px;
+}
+.menu__carta{
+
+text-align: center;
+margin-left: 20vh;
+color: #6f5607;
+}
+.platos {
+    
+    margin-left: 60vh;
+    background-color:black;
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.platos div{
+    color: white;
+    background-color:black;
+    width: 27vh;
+    padding: 40px;
+}
+.platos div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.platos div h4{
+    color:  #6f5607;
+    font-size: 20px;
+}
+/*Reservas*/
+.contenedor{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    color: #6f5607;
+}
+.contenedor h1{
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 40px;
+ font-size: 40px;
+ color: #6f5607;
+
+}
+.contenedor h4{
+    text-align: center;
+    
+    align-items: center;
+    justify-content: center;
+    margin-right:250px;
+    font-size: 20px;
+}
+.elija{
+    margin-left: 30vw;
+    margin-bottom: 40px;
+    
+}
+.comensales{
+    background-color:#6f5607;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 50vw;
+    padding: 10px;
+}
+.fecha{
+    margin-left: 50vw;
+    padding: 10px;
+    background-color: #6f5607;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:40vw ;
+    margin-top: 5vw;
+
+}
+.botones {
+    margin-left:46vw ;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+   align-items: center;
+   gap: 70px;
+
+   
+}
+.botones input{
+    background-color: #6f5607;
+    padding: 10px 20px;
+    color: black;
+    font-weight: 700;
+    border-radius: 10px;
+   
+}
+.botones input:hover{
+    background: gray;
+    color: white;
+}
+ 
+.fechah{
+    margin-left: 17vw;
+}
+
+/* Contacto */
+.contacto{
+    background-color:black;
+    width: 70vw;
+    height: 200vh;
+    margin-left: 60vh;
+}
+.contacto h1{
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #6f5607;
+    text-align: center;
+
+}
+.contacto h4{
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #6f5607;
+    text-align: center;
+}
+.contacto iframe{
+    align-items: center;
+    justify-content: center;
+    margin-left: 26vh;
+}
+.contactenos{
+width: 90%;
+height: 540px;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 0 40px -10px #000;
+padding: 20px 30px;
+max-width:calc(100vw -40px) ;
+box-sizing: border-box;
+font-family: sans-serif;
+position: relative;
+justify-content: center;
+align-items: center;
+margin-left: 1vh;
+margin-top: 10vh;
+}
+.contactenos h2{
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: gray;
+    border-bottom: 3px solid black;
+}
+.contactenos input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: sans-serif;
+    transition: all .3s;
+    border-bottom: 3px solid gray;
+
+}
+.contactenos input :focus{
+border-bottom: 2px solid lightblue;
+}
+.contactenos p:before{
+
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: grey;
+}
+.contactenos button{
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: sans-serif;
+    border: 2px solid gray;
+    background-color: #6f5607;
+    border-radius: 8px;
+    
+}
+.contactenos button:hover{
+    background: gray;
+    color: white;
+
+}
+.contactenos div{
+    position: absolute;
+    bottom: 30px;
+    right: 80px;
+    background: black;
+    color: white;
+    width: 350px;
+    padding: 16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000;
+    align-items: center;
+    justify-content: center;
+}
+.contactenos span{
+    margin: 0 5px 0 15px;
+}
+/*Inspiracion*/
+.inspiracion{
+    
+    width: 100%;
+    height: 150vh;
+
+}
+.inspiracion img{
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 30px;
+    z-index: -1;
+}
+.wdh{
+    width: 300px;
+    height:150vh;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+.wdh h1 {
+    
+    text-align: center;
+    text-transform: uppercase;
+    color:#6f5607 ;
+    font-weight: 100px;
+}
+.wdh h2{
+text-align: center;
+color: #6f5607;
+font-weight: normal;
+
+}
+.wdh img{
+    width: 200px;
+    margin-left: 50px;
+}
+.inspiracion h1{
+    text-align: center;
+    font-size: 50px;
+    color: #6f5607;
+    margin-left: 54vw;
+    font-weight: 800;
+    background-color: #000;
+    width: 20%;
+    border-radius: 8px;
+    padding: 10px;
+}
+.inspiracion h4{
+    text-align: center;
+    font-size: 30px;
+    color: #6f5607;
+    margin-left: 30vw;
+    font-weight: 800;
+}
+.inspiracion p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 90vh;
+    width: 40%;
+}
+
+.foto img{
+    width: 50vw;
+    height: 50vh;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    top: 70vh;
+    right: 10vw;
+}
+.foto{
+    
+    width: 70%;
+    height: 20vh;
+    
+}
+.foto p{
+    width: 60%;
+    text-align:center;
+    margin-top: 60vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social{
+    margin-top: 40px;
+}
